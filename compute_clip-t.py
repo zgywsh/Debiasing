@@ -56,7 +56,7 @@ text_all = [
 mean_score = 0
 for i, text in enumerate(text_all):
 
-    folder_path = f"../outputs/uce/prompt_{i}"
+    folder_path = f"../outputs/prompt_{i}"
     images = get_image_paths(folder_path)
     scores = []
     for image_path in images:
